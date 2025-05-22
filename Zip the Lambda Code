@@ -1,0 +1,2 @@
+cd lambdas/user_service
+zip -r ../user_service.zip .
