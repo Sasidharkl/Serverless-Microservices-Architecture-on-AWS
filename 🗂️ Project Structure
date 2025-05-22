@@ -1,0 +1,11 @@
+serverless-microservices-aws/
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   └── lambda_user.tf
+├── lambdas/
+│   └── user_service/
+│       ├── handler.py
+│       └── requirements.txt
+└── README.md
