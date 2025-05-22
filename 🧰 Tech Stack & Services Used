@@ -1,0 +1,10 @@
+| Layer              | AWS Service                   | Purpose                        |
+| ------------------ | ----------------------------- | ------------------------------ |
+| Compute            | **AWS Lambda**                | Serverless function runtime    |
+| API Gateway        | **Amazon API Gateway**        | REST API entry point           |
+| Database           | **DynamoDB**                  | NoSQL data storage per service |
+| Messaging          | **Amazon SQS / SNS**          | Service communication          |
+| Storage (optional) | **Amazon S3**                 | File uploads or static content |
+| Identity/Auth      | **Amazon Cognito / IAM**      | Secure user auth               |
+| Monitoring         | **CloudWatch, X-Ray**         | Logs, metrics, tracing         |
+| IaC                | **Terraform / AWS SAM / CDK** | Infrastructure as Code         |
