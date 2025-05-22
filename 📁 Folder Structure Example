@@ -1,0 +1,20 @@
+serverless-microservices-aws/
+│
+├── terraform/
+│   ├── main.tf
+│   ├── lambda_user.tf
+│   ├── lambda_order.tf
+│   └── lambda_payment.tf
+│
+├── lambdas/
+│   ├── user_service/
+│   │   └── handler.py
+│   ├── order_service/
+│   │   └── handler.py
+│   └── payment_service/
+│       └── handler.py
+│
+├── scripts/
+│   └── deploy.sh
+│
+└── README.md
